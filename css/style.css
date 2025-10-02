@@ -20,5 +20,6 @@ Estructura del CSS ----> Selector -> propiedad: valor
 @media screen and (min-width: 600px) {
     .caja1, .caja2{
         float: none;
+        width: 100%;
     }
 }
