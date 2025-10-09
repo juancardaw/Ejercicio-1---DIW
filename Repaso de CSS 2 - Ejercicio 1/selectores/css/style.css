@@ -1,0 +1,72 @@
+
+/* Selector general */
+*{
+    color:blue;
+}
+
+
+/* Selectores de etiqueta */
+
+h1{
+    color:green;
+}
+
+/* Selectores por ID */
+
+#miparrafo{
+    color:green;
+}
+
+/* Selector por clase */
+
+.texto-naranja{
+    color:orange;
+}
+
+.fuente-bold{
+    font-weight: 600; 
+}
+
+.fondo-color{
+    background-color: red;
+}
+
+.texto-blanco{
+    color:white;
+}
+
+/* Clases combinadas */
+.fondo-color.texto-blanco{
+    font-size: 30px /*Aumenta el tamaño de fuente*/
+}
+
+
+/* Selectores agrupados */
+
+h1, p, a{
+    color:blue;
+}
+
+h1, .elemento1, .elemento2{
+    font-size: 40px;
+}
+
+/* Selectores descendientes */
+
+#contenedor p{
+    color: blue;
+}
+
+#contenedor h3{
+    color:blueviolet;
+}
+
+
+/* Selectores hijos
+Se utiliza > indica una relacion DIRECTA entre padre e hijo
+*/
+
+.contenedor > div > h1{
+    color: blue;
+}
+
