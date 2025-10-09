@@ -1,0 +1,34 @@
+/* Pseudoelementos ::  */
+
+/* Before inserta conetido antes del elemento seleccionado */
+span::before{
+    content:'-'; /* Inserta un guion antes del contenido del span */
+    font-size: 30px;
+}
+
+/* After inserta contenido despues del elementos seleccionado */
+span::after{
+    content: 'Hola, nos vemos en el after';
+    color: blue;
+}
+
+/* Aplicar estilos a la primera letra del parrafo */
+p::first-letter{
+    font-size: 45px;
+}
+
+/* Aplica estilos solo a la primera linea visible del texto */
+p::first-line{
+    color:red;
+}
+
+/* Modificar los simbolos (viñetas) de las listas <ul> o <ol> */
+ul li::marker{
+    color:violet;
+}
+
+/* Permite modicicar el texto de sujerencia dentro de un input */
+input::placeholder{
+    color:red;
+    font-size: 20px;   
+}

@@ -1,0 +1,33 @@
+/* Pseudoclases CSS */
+
+/*Enlaces no visitados*/
+a:link {
+    Color: orange;
+}
+
+/* Enlaces ya visitados */
+a:visited {
+    color: rgb(2, 142, 9);
+}
+
+
+/*Cuando el usuario hace clic o escribe en el  */
+
+input:focus {
+    background: red;
+}
+
+/* Cuando el cursor pase por encima se aplique un estilo */
+
+a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+/* Pseudoclase de negacion :not()
+Aplicar estilos a todos los parrafos <p> que NO tengan la clase "miparrafo"
+*/
+
+p:not(.miparrafo) {
+    color: blue;
+}

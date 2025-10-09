@@ -70,3 +70,20 @@ Se utiliza > indica una relacion DIRECTA entre padre e hijo
     color: blue;
 }
 
+
+/* Selecto hermano
+El selector .articulo h1 ~ span en CSS aplica estilos a todos los elementos <span> que sean hermanos del <h1> dentro de .articulo y estén después de él.
+*/
+
+.articulo h1 ~ span{
+    color:blue;
+}
+
+/* Selector adyacente */
+.articulo h1 + span{
+    color: red; /*Solo afecta al primer Span despues del H1 */
+}
+
+
+
+
