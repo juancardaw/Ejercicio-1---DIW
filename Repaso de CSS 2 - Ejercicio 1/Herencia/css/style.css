@@ -1,0 +1,17 @@
+/* Herencia CSS */
+
+/* Initial -> restaura el valor inicial por defecto */
+/* Inherit -> Hereda el valor del elemento padre */
+/* unset -> Combina los dos anteriores: hereda si es heredable, y si no, pone el valor inicial */
+
+
+body{
+    color:red;
+    border: 1px solid blue;
+}
+
+
+/* La opcion "initial" quita la herencia del borde del "body", y lo reestable el valor inicial sin borde */
+div{
+    border: initial;
+}

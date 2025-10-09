@@ -1,0 +1,48 @@
+/* Metodologia BEM */
+
+/*     La metodología BEM (Block, Element, Modifier) es una forma de nombrar clases en CSS para mantener el código organizado, claro y fácil de mantener.
+
+    Significado de BEM:
+
+    B → Block (Bloque): una unidad independiente (por ejemplo, un botón, un menú, una tarjeta). -> .card
+
+    E → Element (Elemento): una parte del bloque que cumple una función específica. -> card__title
+
+    M → Modifier (Modificador): una variación o estado del bloque o elemento. -> .card__title--large
+
+    -- ->Modificador
+    __ -> El doble guion bajo se usa para indicar una parte interna del elemento principal
+
+    --------------------------------------------------------------------------------------------------------------------------------------------
+
+    */
+
+
+
+/* ===== BLOQUE PRINCIPAL ===== */
+.card {
+    background: rgb(237, 13, 13); /* Fondo rojo del bloque card */
+}
+
+/* ===== ELEMENTOS DEL BLOQUE ===== */
+.card__title {
+    font-size: 20px; /* Tamaño de fuente del título dentro de la card */
+}
+
+.card__btn {
+    background: blue; /* Fondo azul del botón */
+    color: white;     /* Texto blanco */
+}
+
+
+/* ===== MODIFICADORES ===== */
+
+/* Modificador del bloque: cambia el color de fondo cuando la card está destacada */
+.card--highlighted {
+    background: blue;
+}
+
+/* Modificador del elemento botón: aumenta el tamaño del texto */
+.card__btn--large {
+    font-size: 20px;
+}
