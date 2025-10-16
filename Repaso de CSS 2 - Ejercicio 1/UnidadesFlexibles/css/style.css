@@ -1,0 +1,29 @@
+/* Unidades flexibles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background: lightskyblue;
+
+    /* vw (viewport width 1% del ancho del viewport  */
+    width: 50vw;
+
+    /*vh (viewport height 1vh = 1% de la altura*/
+    height: 50vh;
+}
+
+h1{
+    /* vmin -> 1% del valor mas pequeño entre el ancho y el alto del viewport.
+    Ancho = 1200px y altura = 800px. 10vmin = 80px
+
+    vmax -> 1% del valor mas grande entre el ancho y el alto del viewport.
+    ancho = 1200px y altura = 800px. 10vmax = 120px
+    */
+
+    font-size: 10vmin;
+
+}
+

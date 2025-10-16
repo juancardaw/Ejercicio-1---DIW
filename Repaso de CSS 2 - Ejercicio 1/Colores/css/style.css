@@ -1,0 +1,16 @@
+/* Colores */
+
+/* Distintas formas de meter colores */
+
+div{
+    width: 200px;
+
+    height: 200px;
+
+    background-color: crimson;
+    background-color: #129700;
+    background-color: rgb(17, 0, 255);
+    background-color: hsl(125, 98%, 48%);
+    background: linear-gradient(90deg, blue, orange, crimson, green);
+    background: radial-gradient(green, orange, blue, red);
+}

@@ -1,0 +1,25 @@
+/* Unidades Relativas */
+
+:root{
+    font-size: 50px; /*REM*/
+}
+
+body{
+    font-size: 20px; /*EM*/
+}
+
+h1{
+    font-size:3rem; /*3 x 50px = 150px*/
+
+    font-size: 2em; /*2 x 20px = 40px*/
+
+    font-size: 1ex; /*aprox 0.5em*/
+
+    font-size: 2ch; /*2ch = el ancho de dos caracteres 0*/
+}
+
+div{
+    background: blue;
+    width: 50%;
+    height: 200px;
+}

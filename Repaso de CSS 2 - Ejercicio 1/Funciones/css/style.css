@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background: #000;
+    width: 100%;
+    height: 100px;
+}
+
+.div.container{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+
+    /* Funcion calc */
+    height: calc(100vh - 100px);
+
+    /*Funciones min  */
+    width: min(200px, 25%);
+
+    /* Funcion max */
+    width: max(300px, 25%);
+
+    /* Funcion clamp */
+    width: clamp(100px, 25%, 300px);
+}
+
+
+/* 
+
+h1::after → selecciona el pseudoelemento que aparece justo después del contenido del <h1>.
+
+content: attr(data-name); → usa el valor del atributo data-name del <h1> para mostrarlo como texto. 
+
+*/
+h1::after{
+    content: attr(data-name);
+}
