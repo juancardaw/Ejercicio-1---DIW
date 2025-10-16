@@ -1,0 +1,32 @@
+/* Unidades fijas */
+
+/* Las unidades fijas son totalmente absolutas */
+
+div{
+    background-color: blue;
+    
+    /* q (quartes-millimeter */
+    width: 20q;
+    height: 20q;
+
+    /* px */
+    width: 50px;
+    height: 50px;
+
+    /* pt (punto tipografico) 1 punto = 1/72 de pulgada  */
+    width: 50pt;
+    height: 50pt;
+
+    /* mm (milimetros) 1mm = 1/10 de centimetro */
+    width: 50mm;
+    height: 50mm;
+
+    /* pc (pica) = 12 puntos = 1/6 de pulgadas */
+    width: 50pc;
+    height: 50pc;
+
+    /* in (pulgada) 1in = 2,54cm = 96px en CSS */
+    width: 50in;
+    height: 50in;
+
+}
