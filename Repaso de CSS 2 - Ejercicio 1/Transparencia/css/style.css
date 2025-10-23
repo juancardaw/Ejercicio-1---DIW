@@ -1,0 +1,15 @@
+/* Transparencia */
+
+div{
+    width: 500px;
+    height: 500px;
+
+    /* Transparencia */
+    background-color: transparent;
+    background-color: #00000073; /*Semitrasparencia*/
+    background-color: rgba(0, 0, 0, 0.555); /*El ultimo parametro es de opacidad */
+    background-color: hsla(128, 80%, 50%, 40%); /*"a" significa opacidad*/
+    opacity: 0.2;
+}
+
+/*  */

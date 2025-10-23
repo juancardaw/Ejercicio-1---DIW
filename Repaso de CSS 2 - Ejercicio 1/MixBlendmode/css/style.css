@@ -1,0 +1,38 @@
+/* Blendmode */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("/img/background3.jpg");
+}
+h1 {
+    font-size: 80px;               /* Tamaño grande para el título */
+    line-height: 100vh;            /* Altura de línea igual a toda la altura de la ventana (centra verticalmente) */
+    text-align: center;            /* Centra el texto horizontalmente */
+    text-transform: uppercase;     /* Convierte todo el texto a mayúsculas */
+
+    /* mix-blend-mode controla cómo se mezcla el color del texto con el fondo */
+    /* Solo tiene efecto si hay un fondo detrás */
+
+    mix-blend-mode: normal;        /* Muestra el color original del texto (sin mezcla) */
+    mix-blend-mode: multiply;      /* Oscurece el color combinando texto y fondo (efecto "tinta") */
+    mix-blend-mode: overlay;       /* Mezcla multiplicar + pantalla para colores vivos y contrastados */
+    mix-blend-mode: screen;        /* Aclara el color, efecto de luz o brillo */
+    mix-blend-mode: color-dodge;   /* Aumenta el brillo del texto al mezclar con el fondo */
+    mix-blend-mode: color-burn;    /* Oscurece y da contraste fuerte */
+    mix-blend-mode: hard-light;    /* Luz intensa (efecto fuerte) */
+    mix-blend-mode: soft-light;    /* Luz suave (efecto más difuso) */
+    mix-blend-mode: difference;    /* Contraste fuerte, colores invertidos o llamativos */
+    mix-blend-mode: exclusion;     /* Similar a difference, pero con menos contraste */
+    mix-blend-mode: hue;           /* Mantiene el matiz del texto y la luminosidad del fondo */
+    mix-blend-mode: saturation;    /* Usa la saturación del texto y el color del fondo */
+    mix-blend-mode: color;         /* Usa el color del texto pero mantiene la luminosidad del fondo */
+    mix-blend-mode: luminosity;    /* Usa la luminosidad del texto y el color del fondo */
+}

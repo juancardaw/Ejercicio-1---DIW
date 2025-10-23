@@ -1,0 +1,30 @@
+/* Blendmode */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+
+    background: url("/img/background1.jpg"), url("/img/background2.jpg"), yellow; /*Metemos dos imagenes superponiendo una tras otra*/
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /*Sin mezcla*/
+    background-blend-mode: multiply; /*mezclamos las fotos*/
+    background-blend-mode: screen; /*Aclara colores y da un efecto de luz*/
+    background-blend-mode: overlay;
+    background-blend-mode: lighten; /*Aumenta el brillo de fondo*/
+    background-blend-mode: color-dodge; 
+    background-blend-mode: color-burn; /*Oscurece y satura el color*/
+    background-blend-mode: hard-light;
+    background-blend-mode: soft-light;
+    background-blend-mode: difference; /*Resta colores de fondo y capta el contraste*/
+    background-blend-mode: exclusion; /*Toma el matiz de la capa superior, mantiene el brillo y capta el fondo*/
+    background-blend-mode: saturation; 
+    background-blend-mode: color;
+    background-blend-mode: luminosity ;
+
+}

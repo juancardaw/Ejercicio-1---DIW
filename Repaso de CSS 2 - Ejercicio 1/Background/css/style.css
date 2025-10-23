@@ -1,0 +1,25 @@
+/* Background */
+
+div{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+
+
+    background-color: red ;
+    background: turquoise;
+
+    /* gradientes */
+    background: linear-gradient(90deg, blue, orange);
+    background: radial-gradient(orange, red);
+
+    /* Imagenes de fondo */
+    background-image: url("/Background/img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*Escalado de la imagen*/
+    background-position: center center; /*Escalado de imagen para centrar*/
+    background-attachment: fixed;
+    background: url("/Background/img/wallpaper.jpg") no-repeat fixed center; /*Esto es una linea entera de la imagen*/
+    
+}
