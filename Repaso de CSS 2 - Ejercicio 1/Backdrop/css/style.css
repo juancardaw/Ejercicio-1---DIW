@@ -1,0 +1,41 @@
+/* Backdrop --> modifica el fondo a traves del elemento */
+
+*{
+    margin:0;
+
+}
+
+body{
+    height: 100vh;
+    background: url("/img/background5.jpg");
+    /* Imagen centrada */
+    background-size: cover;
+    /* Posicion de fondo de la imagen centrada */
+    background-position: center;
+    /* Imagen que no se repite */
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 100%;
+    height: 100vh;
+    /* Difumina el fondo d15px */
+    backdrop-filter: blur(15px);
+    /* Reducimos la luminosidad del fondo */
+    backdrop-filter: brightness(20%);
+    /* Se disminuye el contraste del fondo */
+    backdrop-filter: contrast(40%) ;
+    /* ponemos una escala de grises  */
+    backdrop-filter: grayscale(50%);
+    /*Cambiamos 120 grados todos los colores  */
+    backdrop-filter: hue-rotate(120deg);
+    /* Invertimos todos los colores */
+    backdrop-filter: invert(70%);
+    /* Opacidad */
+    backdrop-filter: opacity(20%);
+    /* Color sepia */
+    backdrop-filter: sepia(90%);
+    /* Saturacion del 80% */
+    backdrop-filter: saturate(80%);
+    
+}

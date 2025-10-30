@@ -1,0 +1,28 @@
+/* Filtros */
+
+img{
+    width: 80%;
+    /* Aplicamos filtro con una escala de grises */
+    filter: grayscale(80); 
+    /* Filtro para hacer la imagen borrosa */
+    filter: blur(5px);
+    /* Aplicac color sepia */
+    filter: sepia(80%);
+    /* Aplicar una saturacion al color */
+    filter: saturate(80%);
+    /* Aplicamos transparencian de imagen */
+    filter: opacity(80%);
+    /* Filtro que modifica la iluminosidad de la imagen */
+    filter: brightness(80%);
+    /* Filtro de contraste */
+    filter: contrast(80%);
+    /* filtro que rota el tono del color como una rueda cromatica  */
+    filter: hue-rotate(45deg);
+    /*Invertir los colores parcialmente de la imagen  */
+    filter: invert(70%);
+    /* añadimos sombras externas al contorno de la imagen  */
+    filter: drop-shadow(20px 10px 5px #0000);
+    /* Filtro con varios parametros */
+    filter: grayscale(70%) blur(3px) brightness(90%);
+
+}

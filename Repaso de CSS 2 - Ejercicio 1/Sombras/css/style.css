@@ -1,0 +1,35 @@
+/* Sombras */
+
+div {
+    width: 30%;
+    height: 300px;
+    background-color: grays;
+    margin: 50px auto;
+
+    /* sombras con box-shadow */
+    /* Primer parametro: Desplazacimiento horizontal ( a la derecha) 
+        Segundo parametro: desplazamiento vertical (hacia abajo)
+        Tercero: desenfoque
+        Cuarto: Extension
+        Quinto: color
+    */
+
+    /* Sombra normal y corriente */
+    box-shadow: 10px 10px 10px 0 black;
+
+    /* Sombras multiples */
+    box-shadow: 
+        2px 2px 5px 5px #AAA, /*Sombra clara y pequeña*/
+        6px 6px 5px 19px, /*Sombra media y mas grande*/
+        12px 12px 5px 20px; /*Sonbra mas oscura y mas expandida*/
+}
+
+
+h1{
+    /* Aplicamos sombra al texto
+    Primero: Desplazamiento horizontal
+    Segundo: Desplazamiento vertical
+    Tercero: desenfoque
+    Cuerto: Color de la sombra */
+    text-shadow: 5px 0 5px #000;
+}

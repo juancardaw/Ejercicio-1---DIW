@@ -1,0 +1,66 @@
+/* hypens */
+
+div{
+    width: 200px;
+    border: 1px solid #000;
+
+    /* Overflow-wrap */
+
+/* Controla cómo se comporta el texto cuando es demasiado largo para caber en una línea */
+
+overflow-wrap: normal;
+/* Valor por defecto. Las palabras largas NO se rompen, el texto solo salta de línea en espacios o guiones. 
+   Si una palabra es muy larga, puede desbordarse del contenedor. */
+
+overflow-wrap: anywhere;
+/* Permite romper las palabras en cualquier punto si es necesario para evitar desbordamiento.
+   Es más flexible que break-word y no agrega espacios innecesarios. */
+
+overflow-wrap: break-word;
+/* Permite romper las palabras si es necesario para evitar desbordamiento,
+   pero intenta mantener el texto lo más legible posible.
+   Este valor es muy usado por compatibilidad. */
+
+overflow-wrap: break-all;
+/* Rompe las palabras en cualquier parte (sin considerar reglas lingüísticas),
+   lo que puede afectar la legibilidad pero evita desbordamientos completamente. */
+
+
+/* Controla la separación automática de palabras con guiones (-) al final de línea */
+
+hyphens: auto;
+/* Permite al navegador insertar guiones automáticos según el idioma del texto
+   cuando una palabra se divide al final de una línea. 
+   Requiere que el idioma esté bien definido con el atributo lang (por ejemplo, <p lang="es">). */
+
+hyphens: manual;
+/* Solo se insertan guiones donde el autor los indica con el carácter especial &shy; (soft hyphen).
+   El navegador no genera guiones automáticamente. */
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 100vh;
+    color: #222;
+    margin: 0;
+    font-size: 7em;
+    font-weight: 600px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+h1:hover {
+    /* Cuando el usuario pasa el mouse (hover) sobre el elemento <h1>, 
+       se aplican los siguientes estilos: */
+
+    color: #fff;
+    /* Cambia el color del texto a blanco. */
+
+    text-shadow:
+        0 0 10px white,   /* Sombra blanca suave alrededor del texto */
+        0 0 20px white,   /* Segunda capa de brillo más amplia */
+        0 0 40px red,     /* Capa de brillo rojo, añade un efecto de neón */
+        0 0 80px white,   /* Más brillo blanco para reforzar el resplandor */
+        0 0 120px white;  /* Última capa, la más grande, para un halo luminoso */
+}
