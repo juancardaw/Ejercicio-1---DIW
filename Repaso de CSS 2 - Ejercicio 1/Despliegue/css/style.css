@@ -1,0 +1,12 @@
+/* Despliegue */
+
+p{
+    margin: 0;
+}
+
+#despliegue {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px blue;
+    
+}

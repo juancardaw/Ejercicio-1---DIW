@@ -1,0 +1,40 @@
+div{
+    width: 300px;
+    height: 300px;
+    background: turquoise;
+    margin: 50px auto;
+
+    /* Oculta el cursor */
+    cursor: none;
+    cursor: default;
+    cursor: pointer;
+    cursor: progress;
+    cursor: wait;
+
+    cursor: cell;
+    cursor: alias;
+    cursor: copy;
+    cursor: no-drop;
+    cursor: not-allowed;
+    cursor: grab;
+    cursor: grabbing;
+
+    cursor: text;
+    cursor: vertical-text;
+
+    cursor: crosshair;
+    cursor: ew-resize;
+    cursor: ns-resize;
+    cursor: all-scroll;
+    cursor: move;
+    cursor: row-resize;
+    cursor: col-resize;
+
+    cursor: zoom-in;
+    cursor: zoom-out;
+
+    /* Cursor personalizado */
+    cursor: url("/img/cursor.png") auto;
+
+}
+

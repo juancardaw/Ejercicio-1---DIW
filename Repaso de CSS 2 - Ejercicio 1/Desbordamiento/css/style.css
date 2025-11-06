@@ -1,0 +1,16 @@
+/* Desbordamiento */
+
+#desbordamiento{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    padding: 20px;
+    /* Overflow controla el contenido cuando no cabe dentro del contenedor. Ademas genera la barra de scroll solo si hace falta
+    visible el contenido que se sale se sigue viendo
+    hidden: oculta todo el contenido que se sale del tamaño 
+    */
+    overflow: auto;
+
+}
+
+
